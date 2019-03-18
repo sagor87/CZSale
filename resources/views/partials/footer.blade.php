@@ -5,11 +5,11 @@
                 <img src="img/czsale-logo.png" alt="CZSale" title="CZSale" style="width: 100px; height: 58px;" />
             </div>
             <div class="col-xs-6 text-right">
-                <a href="help.html" class="btn btn-link">Help</a>
+                <a href="{{route('help')}}" class="btn btn-link">Help</a>
                 <span class="bar">|</span>
-                <a href="contact.html" class="btn btn-link">Contact</a>
+            <a href="{{route('contact')}}" class="btn btn-link">Contact</a>
                 <span class="bar">|</span>
-                <a href="conditions.html" class="btn btn-link">Rules & conditions</a>
+            <a href="{{route('conditions')}}" class="btn btn-link">Rules & conditions</a>
             </div>
         </div>
     </div>

@@ -20,7 +20,7 @@
 	</head>
 	<body>
 		<div class="container wrapper">
-			<div class="logo"><a href="index-2.html"><img src="img/czsale-logo.png" alt="CZSale" title="CZSale" /></a></div>
+        <div class="logo"><a href="{{route('home')}}"><img src="img/czsale-logo.png" alt="CZSale" title="CZSale" /></a></div>
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#czsale-navbar">
@@ -31,22 +31,22 @@
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" id="czsale-navbar">
-					<a href="addClassified.html" class="btn btn-success navbar-btn navbar-left add-classified-btn" role="button">Add classified</a>
+					<a href="{{route('addClassified')}}" class="btn btn-success navbar-btn navbar-left add-classified-btn" role="button">Add classified</a>
 					<ul class="nav navbar-nav navbar-right">
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
 							<ul class="dropdown-menu">
-								<li><a href="index-2.html">Home page</a></li>
-								<li><a href="addClassified.html">Add classified</a></li>
-								<li><a href="category.html">Category page</a></li>
-								<li><a href="detail.html">Classified detail</a></li>
-								<li><a href="conditions.html">Rules & Conditions</a></li>
-								<li><a href="help.html">Help (FAQ)</a></li>
-								<li><a href="contact.html">Contact</a></li>
+                            <li><a href="{{route('home')}}">Home page</a></li>
+								<li><a href="{{route('addClassified')}}">Add classified</a></li>
+								<li><a href="{{route('categories')}}">Category page</a></li>
+								<li><a href="{{route('details')}}">Classified detail</a></li>
+                            <li><a href="{{route('conditions')}}">Rules & Conditions</a></li>
+                            <li><a href="{{route('help')}}">Help (FAQ)</a></li>
+								<li><a href="{{route('contact')}}">Contact</a></li>
 								<li><a href="signUp.html">Sign Up</a></li>
 							</ul>
 						</li>
-						<li><a href="help.html">Help</a></li>
+						<li><a href="{{route('help')}}">Help</a></li>
 						<li><a href="signUp.html">Sign Up</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sign in <b class="caret"></b></a>
